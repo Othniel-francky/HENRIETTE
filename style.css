@@ -1,0 +1,29 @@
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+span{
+    color: red;
+}
+
+.Amour h1{
+    margin-right: 10px;
+}
+
+.hearth{
+    font-size: 10rem;
+    animation: hearth  .5s infinite alternate linear;
+}
+
+@keyframes hearth{
+    from{
+        transform: scale(.7);
+    }
+    to{
+        transform: scale(1);  
+    }
+}
